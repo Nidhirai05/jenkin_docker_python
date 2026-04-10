@@ -10,7 +10,7 @@ pipeline {
 	stage('Checkout'){
 		steps {
 		   git branch: 'main',
-		   url: https://github.com/Nidhirai05/jenkin_docker_python.git
+		   url: "https://github.com/Nidhirai05/jenkin_docker_python.git"
                  }
          }
 
