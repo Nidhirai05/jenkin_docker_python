@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = 'nidhirai1105/docker_jenkins_demo'
+        DOCKER_IMAGE_NAME = 'nidhirai1105/docker_jenkins_python_demo'
         IMAGE_TAG = 'latest'
     }
     
